@@ -1,10 +1,10 @@
-# **Exercise 1 — AI-Powered Bank Reconciliation**
+# ✅ **Exercise 1 — AI-Powered Bank Reconciliation**
 
 **Tools:** Claude AI and Microsoft Excel\
 **Application Area:** Finance, Bookkeeping and Backend Operations\
 **Difficulty Level:** Beginner to Intermediate
 
-## **1. Business Scenario**
+## ☑️ **1. Business Scenario**
 
 An organisation maintains its financial transactions in an internal bank book. The bank independently maintains a statement of transactions processed through the corresponding bank account.
 
@@ -14,7 +14,7 @@ Bank reconciliation is the process of comparing these two sets of financial reco
 
 In this exercise, you will use Claude AI and Microsoft Excel to automate the analysis and preparation of a bank reconciliation statement.
 
-## **2. Learning Objectives**
+## ☑️ **2. Learning Objectives**
 
 Upon completing this exercise, you should be able to:
 
@@ -28,7 +28,7 @@ Upon completing this exercise, you should be able to:
 - Generate a financial dashboard and analytical report.
 - Validate AI-generated financial calculations and conclusions.
 
-## **3. Input Datasets**
+## ☑️ **3. Input Datasets**
 
 Create a Microsoft Excel workbook named:
 
@@ -36,7 +36,7 @@ Create a Microsoft Excel workbook named:
 
 The workbook should contain the following two worksheets.
 
-### **Worksheet 1: Bank_Statement**
+### 🟤 **Worksheet 1: Bank_Statement**
 
 | Row ID | Date        | Reference | Description         | Amount (₹) |
 | ------ | ----------- | --------- | ------------------- | ---------- |
@@ -45,7 +45,7 @@ The workbook should contain the following two worksheets.
 | BK003  | 22-Nov-2026 | PAY202    | Supplier B payment  | -2000      |
 | BK004  | 25-Nov-2026 | CHG2511   | Bank service charge | -500       |
 
-### **Worksheet 2: Company_Bank_Book**
+### 🟤 **Worksheet 2: Company_Bank_Book**
 
 | Row ID | Date        | Reference | Description        | Amount (₹) |
 | ------ | ----------- | --------- | ------------------ | ---------- |
@@ -55,7 +55,7 @@ The workbook should contain the following two worksheets.
 | LG004  | 22-Nov-2026 | PAY202    | Supplier B payment | -2000      |
 | LG005  | 24-Nov-2026 | CHQ301    | Issued cheque      | -5000      |
 
-### **Additional Information**
+### 🟤 **Additional Information**
 
 | Parameter                           | Value       |
 | ----------------------------------- | ----------- |
@@ -68,7 +68,7 @@ The workbook should contain the following two worksheets.
 
 Both datasets relate to the same fictional bank account. All data provided in this exercise is simulated for training purposes.
 
-## **4. Task 1 — Data Analysis and Discrepancy Identification**
+## ☑️ **4. Task 1 — Data Analysis and Discrepancy Identification**
 
 Open Claude AI and attach the prepared Excel workbook.
 
@@ -76,7 +76,7 @@ Alternatively, if Claude for Excel is available, open the workbook in Microsoft 
 
 Copy and execute the following prompt.
 
-### **📋 Prompt 1 — Analyse and Compare Financial Transactions**
+### 🔴 **📋 Prompt 1 — Analyse and Compare Financial Transactions**
 
 ```
 Analyse the attached Excel workbook containing two worksheets
@@ -125,13 +125,13 @@ Provide a concise summary of your overall findings.
 
 **Expected output:** Transaction matching analysis, discrepancy identification and a summary of findings.
 
-## **5. Task 2 — Automated Bank Reconciliation**
+## ☑️ **5. Task 2 — Automated Bank Reconciliation**
 
 Using the results generated in Task 1, prepare a comprehensive bank reconciliation statement.
 
 Execute the following prompt in the same Claude conversation.
 
-### **📋 Prompt 2 — Generate a Bank Reconciliation Statement**
+### 🔴 **📋 Prompt 2 — Generate a Bank Reconciliation Statement**
 
 ```
 Based on your previous analysis of the Bank_Statement and
@@ -174,11 +174,11 @@ items and present the reconciliation as provisional.
 
 **Expected output:** Provisional bank reconciliation statement with proposed adjustments, supporting explanations and items requiring verification.
 
-## **6. Task 3 — Generate a Formula-Driven Excel Workbook**
+## ☑️ **6. Task 3 — Generate a Formula-Driven Excel Workbook**
 
 Generate a new Excel workbook containing the complete analysis and reconciliation results.
 
-### **📋 Prompt 3 — Create the Final Excel Workbook**
+### 🔴 **📋 Prompt 3 — Create the Final Excel Workbook**
 
 ```
 Using the original datasets and your completed reconciliation
@@ -235,11 +235,11 @@ Provide the completed Excel workbook as a downloadable
 
 **Expected output:** A professionally formatted, formula-driven Excel workbook named `Bank_Reconciliation_Analysis.xlsx`.
 
-## **7. Task 4 — Generate a Bank Reconciliation Dashboard**
+## ☑️ **7. Task 4 — Generate a Bank Reconciliation Dashboard**
 
 Develop a professional, single-page dashboard that presents the important findings from the reconciliation process.
 
-### **📋 Prompt 4 — Create a Financial Dashboard**
+### 🔴 **📋 Prompt 4 — Create a Financial Dashboard**
 
 ```
 Using the completed bank reconciliation analysis, create
@@ -281,11 +281,11 @@ Return the updated downloadable Excel workbook.
 
 **Expected output:** A single-page financial dashboard integrated into the reconciliation workbook.
 
-## **8. Task 5 — Generate a Management Report**
+## ☑️ **8. Task 5 — Generate a Management Report**
 
 Prepare a concise management report based on the completed reconciliation analysis.
 
-### **📋 Prompt 5 — Generate a Management Summary**
+### 🔴 **📋 Prompt 5 — Generate a Management Summary**
 
 ```
 Act as a financial operations analyst.
@@ -324,7 +324,7 @@ Bank_Reconciliation_Report.docx
 
 **Expected output:** A professional management report in Microsoft Word format.
 
-## **9. Task 6 — Validate the Generated Results**
+## ☑️ **9. Task 6 — Validate the Generated Results**
 
 Independently verify the following:
 
@@ -356,7 +356,7 @@ Reset checklist
 
 Ensure that all proposed accounting corrections are supported by appropriate reasoning and that any unverified assumptions are clearly documented.
 
-## **10. Independent Practical Assignment**
+## ☑️ **10. Independent Practical Assignment**
 
 Create a separate copy of the original input workbook and perform the following modifications:
 
@@ -373,7 +373,7 @@ Compare the revised results with the original analysis and explain how the addit
 
 Generate an updated Excel workbook, dashboard and management report.
 
-## **11. Expected Deliverables**
+## ☑️ **11. Expected Deliverables**
 
 | Sl. No. | Deliverable                          | File Format     |
 | ------- | ------------------------------------ | --------------- |
@@ -386,7 +386,7 @@ Generate an updated Excel workbook, dashboard and management report.
 | 7       | Management report                    | .docx           |
 | 8       | Independent assignment output        | .xlsx and .docx |
 
-## **12. Key Takeaway**
+## ☑️ **12. Key Takeaway**
 
 Artificial Intelligence can significantly accelerate financial transaction matching, discrepancy identification, bank reconciliation, dashboard preparation and management reporting.
 
