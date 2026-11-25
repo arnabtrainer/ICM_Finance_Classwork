@@ -1,10 +1,10 @@
-# **Exercise 2 — AI-Powered Financing Dues, Collections & Ageing Analysis**
+# ✅ **Exercise 2 — AI-Powered Financing Dues, Collections & Ageing Analysis**
 
 **Tools:** Claude AI and Microsoft Excel\
 **Application Area:** Financing, Receivables Management and Financial Operations\
 **Difficulty Level:** Beginner to Intermediate
 
-## **1. Business Scenario**
+## ☑️ **1. Business Scenario**
 
 A finance company maintains records of scheduled instalments and payments received from its borrowers. Some instalments are fully paid, some are partially paid, some are overdue, and others are payable in the future.
 
@@ -12,7 +12,7 @@ The management requires an accurate and regularly updated view of outstanding du
 
 In this exercise, you will use Claude AI and Microsoft Excel to automate receivables analysis, overdue ageing, dashboard generation and management reporting.
 
-## **2. Learning Objectives**
+## ☑️ **2. Learning Objectives**
 
 - Analyse financing and repayment records.
 - Calculate outstanding and overdue amounts.
@@ -22,7 +22,7 @@ In this exercise, you will use Claude AI and Microsoft Excel to automate receiva
 - Generate a financial dashboard and management report.
 - Validate AI-generated financial calculations.
 
-## **3. Input Dataset**
+## ☑️ **3. Input Dataset**
 
 Create a Microsoft Excel workbook named:
 
@@ -30,7 +30,7 @@ Create a Microsoft Excel workbook named:
 
 The workbook should contain a worksheet named `Dues`.
 
-### **Worksheet: Dues**
+### 🟤 **Worksheet: Dues**
 
 | Instalment ID | Borrower   | Due Date    | Scheduled Amount (₹) | Receipts Allocated (₹) |
 | ------------- | ---------- | ----------- | -------------------- | ---------------------- |
@@ -45,7 +45,7 @@ The workbook should contain a worksheet named `Dues`.
 | I009          | Borrower A | 30-Nov-2026 | 14000                | 0                      |
 | I010          | Borrower B | 15-Nov-2026 | 9000                 | 9000                   |
 
-### **Additional Information**
+### 🟤 **Additional Information**
 
 | Parameter          | Value                            |
 | ------------------ | -------------------------------- |
@@ -58,7 +58,7 @@ Receipts have already been allocated to their respective instalments as of the a
 
 All data is fictional and provided for training purposes.
 
-## **4. Task 1 — Data Processing and Financial Analysis**
+## ☑️ **4. Task 1 — Data Processing and Financial Analysis**
 
 Open Claude AI and attach the prepared Excel workbook.
 
@@ -66,7 +66,7 @@ Alternatively, if Claude for Excel is available, open the workbook in Microsoft 
 
 Copy and execute the following prompt.
 
-### **📋 Prompt 1 — Analyse Financing and Collection Records**
+### 🔴 **📋 Prompt 1 — Analyse Financing and Collection Records**
 
 ```
 Act as a financial operations analyst.
@@ -123,13 +123,13 @@ provide a concise summary of your findings.
 
 **Expected output:** Instalment-wise financial analysis, borrower-wise summary, overdue ageing analysis and identification of data discrepancies.
 
-## **5. Task 2 — Generate a Dynamic Excel Workbook**
+## ☑️ **5. Task 2 — Generate a Dynamic Excel Workbook**
 
 Using the results generated in Task 1, create a reusable, formula-driven financial analysis workbook.
 
 Execute the following prompt in the same Claude conversation.
 
-### **📋 Prompt 2 — Create a Formula-Driven Financial Analysis Workbook**
+### 🔴 **📋 Prompt 2 — Create a Formula-Driven Financial Analysis Workbook**
 
 ```
 Using the original dataset and your previous analysis,
@@ -180,11 +180,11 @@ Return the completed workbook as a downloadable
 
 **Expected output:** A professionally formatted, dynamic Excel workbook named `Financing_Dues_Analysis.xlsx`.
 
-## **6. Task 3 — Generate a Financial Dashboard**
+## ☑️ **6. Task 3 — Generate a Financial Dashboard**
 
 Develop a professional, single-page dashboard presenting the overall financing and collections position.
 
-### **📋 Prompt 3 — Create a Financing and Collections Dashboard**
+### 🔴 **📋 Prompt 3 — Create a Financing and Collections Dashboard**
 
 ```
 Create a professional, single-page financial dashboard
@@ -232,11 +232,11 @@ Return the updated downloadable Excel workbook.
 
 **Expected output:** A single-page financing and collections dashboard integrated into the Excel workbook.
 
-## **7. Task 4 — Generate a Management Report**
+## ☑️ **7. Task 4 — Generate a Management Report**
 
 Prepare a concise management report highlighting the important findings from the financing and collections analysis.
 
-### **📋 Prompt 4 — Prepare a Financial Management Report**
+### 🔴 **📋 Prompt 4 — Prepare a Financial Management Report**
 
 ```
 Act as a financial operations analyst.
@@ -277,7 +277,7 @@ Financing_Collections_Report.docx
 
 **Expected output:** A professional financial management report in Microsoft Word format.
 
-## **8. Task 5 — Validate the Generated Results**
+## ☑️ **8. Task 5 — Validate the Generated Results**
 
 Independently verify the accuracy and consistency of the generated analysis, workbook, dashboard and management report.
 
@@ -305,7 +305,7 @@ Consistency between the Excel workbook and management report
 
 Reset checklist
 
-### **Financial Control Checks**
+### 🟤 **Financial Control Checks**
 
 Ensure that the following equations are satisfied for all valid records.
 
@@ -315,7 +315,7 @@ Total Scheduled Amount − Total Receipts
 
 \=
 
-## **Total Outstanding Amount**
+## ☑️ **Total Outstanding Amount**
 
 Control Check 2 — Outstanding Classification
 
@@ -323,7 +323,7 @@ Overdue Amount + Amount Due Today + Future Dues
 
 \=
 
-## **Total Outstanding Amount**
+## ☑️ **Total Outstanding Amount**
 
 Control Check 3 — Ageing Classification
 
@@ -331,22 +331,22 @@ Sum of All Overdue Ageing Buckets
 
 \=
 
-## **Total Overdue Amount**
+## ☑️ **Total Overdue Amount**
 
 Investigate and resolve any discrepancies before accepting the generated results.
 
-## **9. Independent Practical Assignment**
+## ☑️ **9. Independent Practical Assignment**
 
 Create a separate copy of the completed Excel workbook and perform the following modifications.
 
-### **Modification 1 — Update Existing Receipts**
+### 🟤 **Modification 1 — Update Existing Receipts**
 
 | Instalment ID | Modification                                           |
 | ------------- | ------------------------------------------------------ |
 | I007          | Increase the receipts allocated from ₹1,000 to ₹5,000. |
 | I001          | Record an additional receipt of ₹5,000.                |
 
-### **Modification 2 — Add New Instalments**
+### 🟤 **Modification 2 — Add New Instalments**
 
 Add the following records to the `Dues` worksheet.
 
@@ -356,13 +356,13 @@ Add the following records to the `Dues` worksheet.
 | I012          | Borrower H | 15-Dec-2026 | 30000                | 0                      |
 | I013          | Borrower C | 20-Nov-2026 | 12000                | 12000                  |
 
-### **Modification 3 — Update the Analysis Date**
+### 🟤 **Modification 3 — Update the Analysis Date**
 
 Change the analysis date to **30-Nov-2026**.
 
 Assume all recorded receipts have been received by this date.
 
-### **Activities to Perform**
+### 🟤 **Activities to Perform**
 
 1. Refresh the financial analysis and dashboard.
 2. Verify whether the formulas automatically accommodate the additional records.
@@ -371,7 +371,7 @@ Assume all recorded receipts have been received by this date.
 5. Repeat the financial control checks.
 6. Generate an updated Excel workbook and management report.
 
-## **10. Expected Deliverables**
+## ☑️ **10. Expected Deliverables**
 
 | Sl. No. | Deliverable                              | File Format     |
 | ------- | ---------------------------------------- | --------------- |
@@ -385,7 +385,7 @@ Assume all recorded receipts have been received by this date.
 | 8       | Independent assignment workbook          | .xlsx           |
 | 9       | Updated management report                | .docx           |
 
-## **11. Key Takeaway**
+## ☑️ **11. Key Takeaway**
 
 Artificial Intelligence can transform routine financing records into meaningful financial insights, dynamic dashboards and actionable management reports.
 
