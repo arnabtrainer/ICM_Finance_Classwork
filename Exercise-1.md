@@ -391,7 +391,3 @@ Generate an updated Excel workbook, dashboard and management report.
 Artificial Intelligence can significantly accelerate financial transaction matching, discrepancy identification, bank reconciliation, dashboard preparation and management reporting.
 
 However, financial accuracy depends on reliable source data, appropriate business rules, correct calculations and human verification.
-
-**AI-assisted financial analysis should be explainable, traceable, verifiable and repeatable.**
-
-I have retained the original document's datasets, 12 sections, five prompts and assignment requirements. Each prompt is now clearly separated into its own copyable block. I have also added brief expected-output descriptions, a suggested management report filename and an interactive validation checklist for learner convenience. No predetermined findings or trainer-only instructions have been introduced.
